@@ -1,4 +1,8 @@
 # 原理 Theory {#theory}
 
 
+1. 什么是 Steem Smart Contracts？
+1. 什么是 SCOT (Smart Contract Organizational Token)？
+1. 什么是 Nitrous？
 
+>（未完待续）

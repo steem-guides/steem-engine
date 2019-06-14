@@ -20,7 +20,7 @@ lot: no
 cover-image: images/cover.jpg
 site: bookdown::bookdown_site
 biblio-style: apalike
-url: https\://bookdown.org/steem-guides/steemh
+url: https\://steem-guides.github.io/steem-engine
 ---
 
 ```{r set-options, echo=FALSE, cache=FALSE}

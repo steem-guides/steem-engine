@@ -2,3 +2,7 @@
 
 ## 什么是 Steem Engine？
 
+首先，你或许可以参考 [Steem Engine的FAQ](https://steem-engine.com/?p=faq) 了解它对自己的介绍 .....
+
+>（未完待续）
+

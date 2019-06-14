@@ -1,3 +1,17 @@
 # 工具 Tool {#tool}
 
 
+名称 | 链接 | 说明
+-- | -- | --
+Steem Engine CN版 | [https://steem-engine.netlify.com](https://steem-engine.netlify.com) | CN区专用
+Block Explorer | [https://steem-engine.rocks](https://steem-engine.rocks) | steem-engine的steemd
+Token的动态 | [https://steem-engine.rocks/transactions?symbol={token}](https://steem-engine.rocks/transactions?symbol={token}) | 举例：[https://steem-engine.rocks/transactions?symbol=SCT](https://steem-engine.rocks/transactions?symbol=SCT)
+账户的动态 | [https://steem-engine.rocks/@{id}](https://steem-engine.rocks/@{id}) | 举例：[https://steem-engine.rocks/@aggroed](https://steem-engine.rocks/@aggroed)
+Token的持有和锁仓 | [https://steem-engine.rocks/tokens/{token}/richlist](https://steem-engine.rocks/tokens/{token}/richlist) | 举例：[https://steem-engine.rocks/tokens/SCT/richlist](https://steem-engine.rocks/tokens/SCT/richlist)
+交易订单 | https://steem-engine.rocks/open_orders/@{id} | 举例：[https://steem-engine.rocks/open_orders/@aggroed](https://steem-engine.rocks/open_orders/@aggroed)
+Wallet | [https://steem-engine.com/?p=balances](https://steem-engine.com/?p=balances) | 举例：[https://steem-engine.com/?p=balances&a=robertyan](https://steem-engine.com/?p=balances&a=robertyan)
+Market | https://steem-engine.com/?p=market&t={token} | 举例: [https://steem-engine.com/?p=market&t=SCT](https://steem-engine.com/?p=market&t=SCT)
+VP | https://economicstudio.github.io/vp/a={username}&t={token} | 举例: [https://economicstudio.github.io/vp/?a=robertyan&t=SCT](https://economicstudio.github.io/vp/?a=robertyan&t=SCT)
+
+
+>（未完待续）

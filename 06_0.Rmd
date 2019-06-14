@@ -1,3 +1,7 @@
 # 开发 Developers {#developer}
 
+- Steem Smart Contract: https://github.com/harpagon210/steemsmartcontracts
+- JavaScript Library: https://github.com/harpagon210/sscjs
 
+
+>（未完待续）
