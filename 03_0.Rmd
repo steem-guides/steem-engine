@@ -1,13 +1,13 @@
-# 应用 dApp {#dapp}
+# 社群 Tribes {#tribes}
 
 
-## 什么是 SCOT社区 （SCOT Tribes）？{#whats-tribes}
+## 什么是 SCOT 社群 （SCOT Tribes）？{#whats-tribes}
 
 
 
 
 
-## SCOT 社区设定总览 {#tribes-config}
+## SCOT 社群设定总览 {#tribes-config}
 
 本节介绍 SCOT 社区的核心设定，帮助 SCOT 社区的成员们快速了解和比较各个社区和相应货币的关键设定。
 
@@ -17,7 +17,7 @@ Steemcoinpan | SCT | https://www.steemcoinpan.com | sct | 3天 | 2天 | 3天 | 3
 
 
 
-## SCOT 部落（Tribes）介绍 {#intro-to-tribes}
+## SCOT 社群（Tribes）介绍 {#intro-to-tribes}
 
 ### SCT
 
