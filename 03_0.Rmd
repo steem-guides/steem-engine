@@ -1,7 +1,29 @@
 # 应用 dApp {#dapp}
 
-- SCT
-- AAA
-- RORS
 
->（未完待续）
+## 什么是 SCOT社区 （SCOT Tribes）？{#whats-tribes}
+
+
+
+
+
+## SCOT 社区设定总览 {#tribes-config}
+
+本节介绍 SCOT 社区的核心设定，帮助 SCOT 社区的成员们快速了解和比较各个社区和相应货币的关键设定。
+
+社区 | Token | 网站 | 标签 | 结算时间 | 点赞时间 | 取消锁仓时间 | 取消代理时间 | 作者收益曲线 | 点赞收益曲线
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+Steemcoinpan | SCT | https://www.steemcoinpan.com | sct | 3天 | 2天 | 3天 | 3天 | 1.3 | 0.9
+
+
+
+## SCOT 部落（Tribes）介绍 {#intro-to-tribes}
+
+### SCT
+
+
+
+### AAA
+
+
+
