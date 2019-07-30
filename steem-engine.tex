@@ -350,7 +350,7 @@
 
 \title{Steem Engine Handbook}
 \author{Steem 中文社区集体创作}
-\date{2019-07-09}
+\date{2019-07-30}
 
 \begin{document}
 %\maketitle
@@ -444,26 +444,63 @@
 虽然目前steem-engine上有很多乱七八糟的币，但是引入币的概念对DApp还是社区的发展都是有益的。
 
 \hypertarget{wallet}{%
-\subsection[钱包常用操作 ]{\texorpdfstring{钱包常用操作 \footnote{作者：@shine.wong，原文链接：\url{https://busy.org/@shine.wong/steem-engine}}}{钱包常用操作 }}\label{wallet}}
+\subsection[钱包常用操作 ]{\texorpdfstring{钱包常用操作 \footnote{作者：@lovelemon，原文链接：\url{https://busy.org/@lovelemon/steem-engine}}}{钱包常用操作 }}\label{wallet}}
 
-锁仓 Stake
+什么是锁仓（Stake）？
 
-登录\href{https://steem-engine.com}{steem-engine}进入你的钱包（Wallet）。
+这里我挑一个 SCOT 代币来讲解，这样才能方便大家理解，我挑的代币是 SCOT 平台 \url{https://www.steemzzang.com} 的 ZZAN 代币。
 
-主要界面是英文大家用起来不熟悉而已，其实鼠标悬停，最右边的几个图标都有英文简介（貌似可以有7个图标这里就5个）。
+图① \url{https://steem-engine.com}
+\includegraphics{images/chapter_01_0/K6TY4NyI-Screenshot_20190727-040130__01.jpg}
 
-\begin{figure}
-\centering
-\includegraphics{images/chapter_01_0/SJmJHVre-image.png}
-\caption{image.png}
-\end{figure}
+图② \url{https://www.steemzzang.com/@lovelemon}
+\includegraphics{images/chapter_01_0/50cquHBF-Screenshot_20190727-034959__01__01.jpg}
 
-如图最右边你看到一个锁着的按钮，表示你有未锁仓的ttoken可以操作锁仓。锁仓几乎就是power down
+图①显示我所持有的 ZZAN 代币的数量为 10.73935，这个是我还没有锁仓的代币，而右手边显示的 109()，109 这个数字是我已锁仓的代币，109 这个数字其实并不包括我代理出去的 ZZAN 代币。
 
-当你按下之后，更具提示输入你要锁仓的金额就可以了！
-确认锁仓后你会看到\includegraphics{images/chapter_01_0/IpSBaCeP-image.png}解锁的图标，当你需要解除锁仓时，可以点击这个图标，类似power up。
+然后我们再看看图②\ldots{}这个页面是不是很熟悉？没错，他长得很像 Steemit，只是 token 已从 Steem 变成 ZZAN，Steem Power 变成 ZZAN Power。
 
-需要注意的是每种token的解锁时效是不一样的，锁仓前最好了了解一下哟！
+图②中显示我的 ZZAN Power 是 519 ZZAN，但是为什么图①却显示我锁仓的代币是 109 ZZAN 呢？原因是我有把已锁仓的 410 ZZAN 给代理出去了，所以图②中我的 ZZAN Power 那里有个 (-410.00000 ZZAN)
+
+锁仓 (STAKE TOKEN) 就是把 ZZAN 代币 Power Up 成 ZZAN Power，情况类似于使用 Steem 来 Power Up 成 Steem Power (点赞权重) 。
+
+\begin{itemize}
+\tightlist
+\item
+  ZZAN 是我钱包里未锁仓的代币
+\item
+  ZZAN Power 是我已锁仓的代币
+\end{itemize}
+
+未锁仓的代币可以随意交易，但锁仓了代币就是你的点赞权重，只要锁仓了 ZZAN，你点赞的那篇文章只要有使用 \#zzan 标签就能获得 ZZAN 代币。你锁仓的 ZZAN 代币越多，你点赞的那篇文章结算时获得的 ZZAN 代币也会越多。
+
+Steem Engine 代币要如何锁仓与代理？
+
+首先打开 \url{https://steem-engine.com} 登录，进入你的 wallet 页面，在你要锁仓的代币旁边都会有这些锁头之类的。
+
+\includegraphics{images/chapter_01_0/9CFzniRN-Screenshot_20190727-040206__01.jpg}
+
+🔒 锁头是 STAKE，STAKE 是把 zzan 变成 zzan power
+
+🔓 解锁是 UNSTAKE，UNSTAKE 是把 zzan power 变回 zzan
+
+↔ 这个就是代理的符号 DELEGATE
+
+📁 最后一个是取消代理的符号 UNDELEGATE
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+首先我们要讲的是如何锁仓 (STAKE)，第一步是点击 🔒 进入下图③，只有两个填写项，TO 是写自己的 ID 名字，AMOUNT 是要锁仓的数量，然后就是一系列 steemconnect 登录密码，密码要用 active key 授权完成操作。
+
+图③
+\includegraphics{images/chapter_01_0/D9g7Vpko-Screenshot_20190727-045205__01.jpg}
+
+接下去第二步要讲的是如何代理，点击 ↔ 进入下图④，也是只有两个填写项，TO 是写你要代理给的那个人。
+
+比如我要代理 zzan 代币给 \citet{cn-zzang}，我就在 TO 那里写上 cn-zzang，不需要加@。AMOUNT 是要代理的代币数量。
+
+图④
+\includegraphics{images/chapter_01_0/wM8TQrHF-Screenshot_20190727-045218__01.jpg}
 
 \hypertarget{scot-basics}{%
 \section{SCOT 入门}\label{scot-basics}}
